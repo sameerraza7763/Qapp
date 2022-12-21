@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+  
+}
+
+
+
+
+.main_container{
+    background: linear-gradient(to right,#9cecfb,#65c7f7,#0053d4);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+#box{
+    height: 320px;
+    width: 600px;
+   background-color: white;
+   padding: 15px;
+   border-radius: 2px;
+   font-size: 30px;
+   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.row{
+    margin: 10px;
+    font-size: 20px;
+ 
+}
+#btn{
+    background-color: blue;
+    color: white;
+    height: 40px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    border: none;
+    border-radius: 5px;
+}
+
+
+@media   (min-width:200px)  and (max-width:400px) {
+    #box{
+        /* background-color: blue; */
+        height: 290px;
+        font-size: 15px;
+        color: black;
+        background-color: white;
+        width: 300px;
+        /* padding: 10px; */
+
+           
+        }
+}
+@media  (min-width:400px)  and (max-width:600px) {
+    #box{
+        /* background-color: blue; */
+        height: 290px;
+        font-size: 15px;
+        color: black;
+        background-color: white;
+        width: 400px;
+
+           
+        }
+}
+@media  (min-width:100px)  and (max-width:200px) {
+    #box{
+        /* background-color: blue; */
+        height: 350px;
+        font-size: 15px;
+        color: black;
+        background-color: white;
+        width: 120px;
+
+           
+        }
+}
